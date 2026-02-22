@@ -1,66 +1,90 @@
-# EMCAQ 🌿 - Empowering Modern Careers with Aesthetic Quality
+# EMHOM AI Health Assistant 🌿💼
 
-EMCAQ is a comprehensive wellness and productivity companion designed specifically for employees and working professionals. It balances the demands of a high-paced career with personal well-being, housing needs, and mental health.
+**EMHOM AI Health Assistant** is a proactive wellness companion specifically designed for professionals. It bridges the gap between high-performance work environments and personal health, ensuring that burnout is prevented through intelligent monitoring and actionable recommendations.
 
-## ✨ Core Features
+## 🌟 Mission
+Our mission is to integrate wellness seamlessly into the professional lifestyle. By monitoring activity levels and routine adherence, EMHOM provides a "Nature-meets-Professional" experience that keeps you healthy, hydrated, and productive.
 
-### 🏠 Apartment Finder
-- **Role-Based Search:** Find budget-friendly apartments tailored to your job role and salary.
-- **Smart Filters:** Optimized results based on your city, office distance, and lifestyle.
+---
 
-### 📅 Daily Flow (Routine Planner)
-- **Mindful Scheduling:** Create and manage your daily office routines.
-- **Progress Tracking:** Visualize your day's ebb and flow with a beautiful nature-inspired progress tracker.
+## 🚀 Key Features
 
-### 🏃 Vitality Compass (Fitness Tracker)
-- **Health Metrics:** Track steps, hydration, and movement minutes.
-- **Vibrancy Streaks:** Maintain health goals with rewarding streaks and insights.
-- **Sedentary Detection:** Proactive reminders to move if you've been stationary for too long.
+### 👤 Personalized Onboarding
+- **Smart Assessment:** A comprehensive intake process that considers your job role, company, salary, work duration, and even commute distance to tailor your wellness plan.
+- **Secure Authentication:** Easy-to-use login and registration system to keep your health data private.
 
-### 🧘 Relaxation Hub
-- **Nature Sounds:** Curated mind-relaxing songs and ambient nature sounds.
-- **Focus Games:** Mini-games designed to improve memory and focus while reducing stress.
+### 🤖 AI Health Agent Integration
+The core of EMHOM is a proactive AI agent that monitors your work habits:
+- **Sedentary Behavior Detection:** Detects if you've been stationary for over 60 minutes and suggests quick movement breaks.
+- **Routine Deviation Alerts:** Gently nudges you when you miss scheduled tasks like water intake or posture checks.
+- **Daily Wellness Summary:** Provides an intelligent analysis of your day's health metrics with suggestions for the next day.
 
-### 🤖 EMHOM AI Health Assistant
-- **Proactive Wellness:** Monitors your activity levels and provides intelligent recommendations to prevent burnout.
-- **Routine Deviations:** Sends gentle nudges if you miss a scheduled healthcare task like water intake.
-- **Daily Summaries:** Provides an end-of-day intelligent analysis of your health metrics.
+### 📊 Wellness Dashboard
+- **Fitness Tracker:** Monitor your steps, calories, and active minutes.
+- **Routine Planner:** Schedule your day including work tasks and health breaks.
+- **Relaxation Hub:** Curated content to help you decompress after a long day.
+- **Apartment Finder:** A unique feature to help professionals find housing that supports their lifestyle and reduces commute-related stress.
 
-## 🎨 Design Philosophy: "Nurture by Nature"
-EMCAQ features a unique "Nature-Type" UI/UX. The design uses organic shapes, earthy tones, and fluid animations to create a calming digital environment, reducing "screen fatigue" common among professionals.
+---
 
-## 🚀 Tech Stack
-- **Frontend:** React, TypeScript, Tailwind CSS (v4)
+## 🛠 Tech Stack
+
+- **Frontend:** React 19, TypeScript
+- **Styling:** Tailwind CSS v4 (Modern & High Performance)
+- **Animations:** Framer Motion
+- **AI Integration:** AI SDK (@ai-sdk/react)
 - **Icons:** Lucide React
-- **Routing:** React Router DOM
-- **State Management:** Local Storage (for prototyping)
-- **AI Integration:** EMHOM Agent SDK
+- **Build Tool:** Vite (Rolldown-powered)
 
-## 🛠️ Getting Started
+---
+
+## 🎨 Design Philosophy
+The UI follows a **"Nature Type"** aesthetic—utilizing organic colors, soft shadows, and clean layouts. It aims to reduce digital eye strain and provide a calming environment that contrasts with stressful work tasks.
+
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
-- Node.js (Latest LTS recommended)
-- pnpm
+- [Node.js](https://nodejs.org/) (Latest LTS)
+- [pnpm](https://pnpm.io/)
 
 ### Installation
-1. Clone the repository:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/emcaq.git
-   cd emcaq/frontend
+   git clone <repository-url>
+   cd frontend
    ```
 
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
    pnpm install
    ```
 
-3. Start the development server:
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add necessary configurations (refer to `.env.example`).
+
+4. **Run the development server:**
    ```bash
    pnpm dev
    ```
 
-## 📝 License
-Distributed under the MIT License. See `LICENSE` for more information.
+5. **Build for production:**
+   ```bash
+   pnpm build
+   ```
 
 ---
-*Built with ❤️ for professionals who strive for a better work-life harmony.*
+
+## 🤝 Contributing
+We welcome contributions that align with our mission of professional wellness. Please ensure your code follows the established "Nature Type" UI guidelines.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Developed with ❤️ for a healthier workforce.
